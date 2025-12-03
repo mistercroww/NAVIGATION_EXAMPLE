@@ -101,4 +101,4 @@ This repository exists to give Unity developers a practical example of:
 ---
 
 And yes, if you are wondering, i couldn't bother and just dumped the code on GPT and asked for a readme file hahahah.
-This is MIT license, so do whatever you want with the code, extended further if you want, that would be nice :)
+This is MIT license, so do whatever you want with the code, extend it further if you want, that would be nice :)
