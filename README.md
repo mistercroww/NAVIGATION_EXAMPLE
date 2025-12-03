@@ -32,6 +32,22 @@ NPCs don’t snap or jitter — they smoothly track their next path segment usin
 
 ---
 
+### 🚶 **NPC State Machine (Simple but Effective)**
+
+Two clean states:
+
+* `Idle`
+* `Walking`
+
+With:
+
+* Animation speed damping
+* Event callbacks when points are reached
+* Support for looping or one-shot paths
+* Per-point “OnPointReached” event and “OnPathComplete” event
+
+---
+
 ### 📍 **Spline-Based Path Editing**
 
 A powerful toolset to author NPC paths using Unity’s Spline package:
@@ -48,22 +64,6 @@ Includes a visualizer using a `LineRenderer`:
 * Adjustable resolution
 * Optional straight-line mode
 * Real-time updates when spline changes
-
----
-
-### 🚶 **NPC State Machine (Simple but Effective)**
-
-Two clean states:
-
-* `Idle`
-* `Walking`
-
-With:
-
-* Animation speed damping
-* Event callbacks when points are reached
-* Support for looping or one-shot paths
-* Per-point “OnPointReached” event and “OnPathComplete” event
 
 ---
 
